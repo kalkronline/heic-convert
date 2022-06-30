@@ -1,0 +1,22 @@
+{
+  "name": "img_libs",
+  "version": "1.0.0",
+  "description": "testing image conversion libraries",
+  "main": "./src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon ./src/app.ts --ext 'ts' "
+  },
+  "author": "kale riley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/sharp": "^0.30.4",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1"
+  },
+  "dependencies": {
+    "heic-convert": "^1.2.4",
+    "sharp": "^0.30.7",
+    "typescript": "^4.7.4"
+  }
+}

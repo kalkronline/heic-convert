@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+
+        // "noImplicitAny": true,
+        "removeComments": true,
+        "allowUnreachableCode": false,
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "sourceMap": true 
+    },
+    "ts-node": {
+        "esm": true
+    }
+}
